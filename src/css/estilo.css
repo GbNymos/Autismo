@@ -1,0 +1,177 @@
+
+
+body{
+  overflow-x: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  background: url("../img/ceu-azul.jpg") ;
+  background-attachment: fixed;
+
+}
+
+::-webkit-scrollbar {
+width: 0px; /* Largura da barra de rolagem vertical */
+height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+.navbar{
+height: 100px;
+background-image: linear-gradient(to top, #4fccf177 ,  #ffff99);
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+display: flex;
+justify-content: space-around; 
+align-items: center; 
+width: 100%;
+
+}
+
+.destaque{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+header{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100% 0px;
+    margin-top: 30px;
+    background-color: #0b264336;
+    text-align: center;
+
+padding: 110px;
+
+}
+header>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+    color:  #ffcc00 ;
+    padding: 20px;
+    border-radius: 3px;
+
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2) ;
+}
+header>p{
+    padding: 10px;
+ 
+    font-size: small;
+    font-weight: bolder;
+}
+
+
+main{
+   background-color:#f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main,section{
+    margin-top: 90px;
+}
+
+
+.card-body{
+    background-color:  #f0f0f0 ;
+}
+
+.Curiosidades,.Depoimentos>h2{
+    font-weight: bold;
+    padding: 30px;
+    
+}
+.Curiosidades,.Depoimentos{
+    margin: 30px;
+    background-color:#ffff99;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -4px -4px 10px #ffff99a4;
+}
+
+
+.item_nav > a{
+padding-left: 10vw;
+
+}
+
+.p-2{
+font-size: 1.2rem;
+text-decoration: none; 
+
+border: #01BBF5  solid ;
+border-radius: 3px 10px;
+transition: color 0.3s ease, background-color 0.3s ease;
+color: black;
+background-color: #f0f0f0 ;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.p-2:hover { 
+background-color:  #ffff99; 
+border-radius: 4px; 
+font-size: 1.1rem;
+padding: 0.5rem 1rem; 
+
+}
+.list-group, .button_fechar {
+font-size: small;
+text-align: center;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 10px; /* ajusta conforme necessário */}
+
+.list-group :hover{
+    background-color: #ffff99 ;
+
+}
+
+.col-8{
+    background-color: white;
+}
+
+h4,h2{
+    
+    background-color: #ffcc00;
+    border-radius: 20%;
+    text-align: center;
+    font-weight: bolder;
+}
+#fake_section{
+    background-color: rgba(255, 0, 0, 0.308);
+    border-color: #ffcc00;
+    border-style: dashed;
+}
+#true_section{
+    background-color: rgba(0, 128, 0, 0.363);
+    border-color: #ffcc00;
+    border-style: dashed;
+
+}
+h5{
+   
+    border-style: outset;
+    background-color: #01bcf53b;
+    text-align: right;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+#inf_labjuv{
+    background-color:#f0f0f0;
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+
+    text-align: center;
+}
+#inf_labjuv>h2{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #4fccf177 ,  #ffff99);
+    width: 100%;
+    font-weight: bold;
+    border-radius: 0px;
+   
+}
+#inf_labjuv  img{
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.568) 10px 10px 10px;
+    border-top-right-radius: 50%;
+
+}
